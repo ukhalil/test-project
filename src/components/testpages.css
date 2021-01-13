@@ -1,0 +1,12 @@
+.outer{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  font-size: 10px;
+}
+
+.inner{
+    margin: auto;
+    font-size: 10px;
+    font-size: 20px
+}
