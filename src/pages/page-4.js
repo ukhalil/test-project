@@ -4,20 +4,16 @@ import ReactDOM from 'react-dom';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
-
-
-
-const SecondPage = () => (
-
-  ReactDOM.render(
+const App = () => (
+  <div>
     <MessengerCustomerChat
       pageId="102914977926263"
       appId="474727910208022"
-      htmlRef="<REF_STRING>"
-    />,
-    document.getElementById('demo')
-  );
+    />
+  </div>
+);
 
 
 
-export default SecondPage
+
+export default App
